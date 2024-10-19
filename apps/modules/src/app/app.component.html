@@ -1,1 +1,11 @@
-<app-nx-welcome></app-nx-welcome> <router-outlet></router-outlet>
+<h1 class="title">The Angular Renaissance</h1>
+
+<div class="container">
+  <a [routerLink]="'feature-a'" [routerLinkActive]="'feature-a'">Feature A</a>
+  <a [routerLink]="'feature-b'" [routerLinkActive]="'feature-b'">Feature B</a>
+  <a [routerLink]="'feature-c'" [routerLinkActive]="'feature-c'">Feature C</a>
+</div>
+
+<div class="router-container">
+  <router-outlet />
+</div>
