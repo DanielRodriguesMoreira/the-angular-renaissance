@@ -5,7 +5,8 @@
   "scripts": {
     "start-standalone": "npx nx serve standalone",
     "start-modules": "npx nx serve modules",
-    "start-demo": "npx nx serve deferrable-views"
+    "start-demo": "npx nx serve deferrable-views",
+    "test-demo": "npx nx test deferrable-views"
   },
   "private": true,
   "dependencies": {
